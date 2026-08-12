@@ -45,37 +45,37 @@ Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 START 
 - Display food menu 
 - Take order 
-Ask if customer would like meal 
-IF customer says YES 
-Ask for meal choice (choices depend on availability on the day) 
-Identify price of meal choice 
-ELSE: price is 0Php 
+-Ask if customer would like meal 
+- IF customer says YES 
+- Ask for meal choice (choices depend on availability on the day) 
+- Identify price of meal choice 
+- ELSE: price is 0Php 
    
-Ask if customer would like rice 
-IF customer says YES 
-Ask for rice portion (whole, half, double serving, etc) 
-Identify price of portion 
-ELSE: price is 0Php 
+- Ask if customer would like rice 
+- IF customer says YES 
+- Ask for rice portion (whole, half, double serving, etc) 
+- Identify price of portion 
+- ELSE: price is 0Php 
    
-Ask if customer would like side 
-IF customer says YES 
-Ask for choice of side (fruit, turon, etc) 
-Identify price of side 
-ELSE: price is 0Php
+- Ask if customer would like side 
+- IF customer says YES 
+- Ask for choice of side (fruit, turon, etc) 
+- Identify price of side 
+- ELSE: price is 0Php
   
-Enter price of meal, price of rice portion, price of side and calculate sum 
-Display order summary and cost 
-Ask customer for payment 
-Calculate Change 
-IF payment > total cost 
-Payment - total cost = change 
-Give change to customer 
-ELIF payment < total cost 
-Ask customer for additional money 
-Add additional money to payment 
-Calculate change again 
-ELSE: change = 0, customer finished 
-END
+- Enter price of meal, price of rice portion, price of side and calculate sum 
+- Display order summary and cost 
+- Ask customer for payment 
+- Calculate Change 
+- IF payment > total cost 
+- Payment - total cost = change 
+- Give change to customer 
+- ELIF payment < total cost 
+- Ask customer for additional money 
+- Add additional money to payment 
+- Calculate change again 
+- ELSE: change = 0, customer finished 
+- END
 
 Reflection:
 Decomposition is an essential process when solving problems, as it breaks down the whole concept or problem into smaller, more manageable parts. It is used to understand a complex problem and to solve it more effectively.
