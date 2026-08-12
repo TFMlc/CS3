@@ -27,44 +27,54 @@ Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
 
 Sub-Problem                     CT Skill                 Example Solution
-Slow Ordering                   Decomposition            Pre-orders 
-Manual Payment Calculation      Algorithm                Register for payment calculation
-Lack of Supply Tracker          Pattern Recognition      Spreadsheet Menu Tracker
+1. Slow Ordering                   Decomposition            Pre-orders 
+2. Manual Payment Calculation      Algorithm                Register for payment calculation
+3. Lack of Supply Tracker          Pattern Recognition      Spreadsheet Menu Tracker
+
+CT Skill
+1. Decomposition
+2. Algorithm
+3. Pattern Recognition
+
+Example Solution
+1. Pre-orders
+2. Register for payment calculation
+3. Spreadsheet Menu Tracker
 
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 START 
 Display food menu 
 Take order 
- Ask if customer would like meal 
-  IF customer says YES 
-   Ask for meal choice (choices depend on availability on the day) 
-   Identify price of meal choice 
-  ELSE: price is 0Php 
- 
- Ask if customer would like rice 
-  IF customer says YES 
-   Ask for rice portion (whole, half, double serving, etc) 
-   Identify price of portion 
-  ELSE: price is 0Php 
- 
- Ask if customer would like side 
-  IF customer says YES 
-   Ask for choice of side (fruit, turon, etc) 
-   Identify price of side 
-  ELSE: price is 0Php
-
+Ask if customer would like meal 
+IF customer says YES 
+Ask for meal choice (choices depend on availability on the day) 
+Identify price of meal choice 
+ELSE: price is 0Php 
+   
+Ask if customer would like rice 
+IF customer says YES 
+Ask for rice portion (whole, half, double serving, etc) 
+Identify price of portion 
+ELSE: price is 0Php 
+   
+Ask if customer would like side 
+IF customer says YES 
+Ask for choice of side (fruit, turon, etc) 
+Identify price of side 
+ELSE: price is 0Php
+  
 Enter price of meal, price of rice portion, price of side and calculate sum 
 Display order summary and cost 
 Ask customer for payment 
 Calculate Change 
- IF payment > total cost 
-  Payment - total cost = change 
-  Give change to customer 
- ELIF payment < total cost 
-  Ask customer for additional money 
-  Add additional money to payment 
-  Calculate change again 
- ELSE: change = 0, customer finished 
+IF payment > total cost 
+Payment - total cost = change 
+Give change to customer 
+ELIF payment < total cost 
+Ask customer for additional money 
+Add additional money to payment 
+Calculate change again 
+ELSE: change = 0, customer finished 
 END
 
 Reflection:
