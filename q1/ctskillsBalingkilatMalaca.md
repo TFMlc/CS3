@@ -50,19 +50,19 @@ START
 - Ask for meal choice (choices depend on availability on the day) 
 - Identify price of meal choice 
 - ELSE: price is 0Php 
-   
+-----------------------------------------------------------------------------------------
 - Ask if customer would like rice 
 - IF customer says YES 
 - Ask for rice portion (whole, half, double serving, etc) 
 - Identify price of portion 
 - ELSE: price is 0Php 
-   
+-----------------------------------------------------------------------------------------
 - Ask if customer would like side 
 - IF customer says YES 
 - Ask for choice of side (fruit, turon, etc) 
 - Identify price of side 
 - ELSE: price is 0Php
-  
+-----------------------------------------------------------------------------------------
 - Enter price of meal, price of rice portion, price of side and calculate sum 
 - Display order summary and cost 
 - Ask customer for payment 
