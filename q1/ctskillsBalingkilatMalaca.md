@@ -26,10 +26,10 @@ Please list possible sub-problems:
 Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
 
-Sub-Problem                     CT Skill                 Example Solution
-1. Slow Ordering                   Decomposition            Pre-orders 
-2. Manual Payment Calculation      Algorithm                Register for payment calculation
-3. Lack of Supply Tracker          Pattern Recognition      Spreadsheet Menu Tracker
+Sub-Problem
+1. Slow Ordering
+2. Manual Payment Calculation
+3. Lack of Supply Tracker
 
 CT Skill
 1. Decomposition
@@ -43,8 +43,8 @@ Example Solution
 
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 START 
-Display food menu 
-Take order 
+- Display food menu 
+- Take order 
 Ask if customer would like meal 
 IF customer says YES 
 Ask for meal choice (choices depend on availability on the day) 
