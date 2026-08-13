@@ -1,2 +1,2 @@
-# CS3
-q1_sg2_a1: https://github.com/TFMlc/CS3/blob/567ca362c83cd2cc7167633df5c8c51f57f812fa/q1/ctskillsBalingkilatMalaca.md
+# CS3 Repository
+q1_sg2_a1: https://github.com/TFMlc/CS3/blob/0e8f8f86e7c9fd5fdb0557b678031cf3db66b036/q1/q1_sg2_a1.md
