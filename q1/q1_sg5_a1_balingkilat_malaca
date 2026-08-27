@@ -1,0 +1,17 @@
+class Hero:
+    def __init__(self, hero1, hero2, hp1 = 100, hp2 = 100):
+        self.hero1 = hero1
+        self.hero2 = hero2
+        self.hp1 = hp1
+        self.hp2 = hp2
+    def take_damage(self, amount):
+        self.hp1 -= amount
+        print("Full hp: 100")
+        print(self.hero1,"hp:",self.hp1)
+        print(self.hero2,"hp:",self.hp2)
+
+myHero = Hero("Arthur", "Morgana")
+myHero.take_damage(10)
+
+        
+        
