@@ -1,0 +1,29 @@
+year = int(input("Enter your birth year: "))
+
+if year < 1900:
+    print("Invalid Year, it should not be earlier than 1900")
+    quit()
+elif (year - 1900) % 12 == 0:
+    print("Your Chinese Zodiac Sign is : Rat (鼠 / Shǔ)")
+elif (year - 1900) % 12 == 0 + 1:
+    print("Your Chinese Zodiac Sign is : Ox (牛 / Niú)")
+elif (year - 1900) % 12 == 0 + 2:
+    print("Your Chinese Zodiac Sign is : Tiger (虎 / Hǔ)")
+elif (year - 1900) % 12 == 0 + 3:
+    print("Your Chinese Zodiac Sign is : Rabbit (兔 / Tù)")
+elif (year - 1900) % 12 == 0 + 4:
+    print("Your Chinese Zodiac Sign is : Dragon (龙 / Lóng)")
+elif (year - 1900) % 12 == 0 + 5:
+    print("Your Chinese Zodiac Sign is : Snake (蛇 / Shé)")
+elif (year - 1900) % 12 == 0 + 6:
+    print("Your Chinese Zodiac Sign is : Horse (马 / Mǎ)")
+elif (year - 1900) % 12 == 0 + 7:
+    print("Your Chinese Zodiac Sign is : Goat (羊 / Yáng)")
+elif (year - 1900) % 12 == 0 + 8:
+    print("Your Chinese Zodiac Sign is : Monkey (猴 / Hóu)")
+elif (year - 1900) % 12 == 0 + 9:
+    print("Your Chinese Zodiac Sign is : Rooster (鸡 / Jī)")
+elif (year - 1900) % 12 == 0 + 10:
+    print("Your Chinese Zodiac Sign is : Dog (狗 / Gǒu)")
+elif (year - 1900) % 12 == 0 + 11:
+    print("Your Chinese Zodiac Sign is : Pig (猪 / Zhū)")
