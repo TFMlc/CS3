@@ -1,0 +1,34 @@
+class Glassware:
+    def __init__(self, clear, glass):
+        self.clear = clear
+        self.glass = glass
+
+    def hold_substance(self):
+        print(f"A {self.clear}, {self.glass} glassware is holding a substance.")
+
+class Beaker(Glassware):
+    def __init__(self, clear, glass, spout):
+        super().__init__(clear, glass)
+        self.spout = spout
+
+    def pour_substance(self):
+        print(f"A {self.clear}, {self.glass} beaker is pouring a substance in another using its {self.spout}")
+
+class Tray:
+    def __init__(self, color = "gray"):
+        self.color = color
+        self.put_beaker = [
+            Beaker("clear", "glass", "has spout"),
+            Beaker("clear", "glass", "has spout"),
+            Beaker("clear", "glass", "has spout"),
+            Beaker("clear", "glass", "has spout"),
+            Beaker("clear", "glass", "has spout"),
+            ]
+
+    def show_beaker(self):
+        print(f"A {self.color} tray has {len(self.put_beaker)} beakers.")
+
+        
+tray = Tray()
+tray.show_beaker()
+        
