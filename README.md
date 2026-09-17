@@ -7,3 +7,4 @@
 - q1_sg5_a1: https://github.com/TFMlc/CS3/blob/189c9938df109be9edbd83f93a29a76a1c661b26/q1/q1_sg5_a1_balingkilat_malaca
 - q1_sg6_a1: https://github.com/TFMlc/CS3/blob/f721d90fa58f43fb8499c7a231279eb96f95b4a4/q1/q1_sg6_balingkilat_malaca
 - q1_sg7_a1: https://github.com/TFMlc/CS3/blob/ad8fe74fe3450efe0c2c55d384304a2ef44d3054/q1/q1_sg7_balingkilat_malaca
+- Tusok-Tusok Activity: https://github.com/TFMlc/CS3/blob/7ddf35f0096fd93f22100b1b8c4aa220a0b32757/q1/q1_tusoktusok_balingkilat_malaca
