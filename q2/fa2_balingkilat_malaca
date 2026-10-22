@@ -1,0 +1,44 @@
+class Patient:
+    def __init__(self, name, bill_amount: float):
+        self.name = name
+        self.bill_amount = bill_amount
+        self.original_bill_amount = bill_amount
+
+    def get_name(self):
+        return self.name
+
+    def set_name(self, name):
+        self.name = name
+
+    def get_bill_amount(self):
+        return self.bill_amount
+
+    def set_bill_amount(self, bill_amount):
+        self.bill_amount = bill_amount
+
+    def display_info(self):
+        print(f"Patient Name: {self.name}\nOriginal Bill: P{self.original_bill_amount}\nFinal Bill: P{self.bill_amount}\n")
+
+class SeniorPatient(Patient):
+    def calculate_bill(self):
+        x = self.original_bill_amount * 0.2
+        self.bill_amount = self.original_bill_amount - x
+
+class PhilHealthPatient(Patient):
+    def calculate_bill(self):
+        x = self.original_bill_amount * 0.15
+        self.bill_amount = self.original_bill_amount - x
+        
+regular_patient = Patient("Juan Dela Cruz", 15000)
+senior_patient = SeniorPatient("Maria Santos", 15000)
+philhealth_patient = PhilHealthPatient("Pedro Reyes", 15000)
+
+senior_patient.calculate_bill()
+philhealth_patient.calculate_bill()
+
+print("Hospital Billing System")
+print("-----------------------")
+
+regular_patient.display_info()
+senior_patient.display_info()
+philhealth_patient.display_info()
